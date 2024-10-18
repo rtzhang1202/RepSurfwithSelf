@@ -1,0 +1,15 @@
+打开 Git Bash： 确保你在本地的文件夹中，并且打开 Git Bash。
+
+导航到本地仓库： 使用 cd 命令导航到你的 Git 仓库。例如：
+
+bash
+
+cd D:/PythonCode/RepSurf
+检查当前状态： 使用以下命令查看当前仓库状态，查看有哪些更改：
+git status
+添加更改到暂存区： 使用 git add 命令将更改添加到暂存区。如果要添加所有更改，可以使用：
+git add .
+提交更改： 使用 git commit 命令提交更改并添加提交信息：
+git commit -m "描述你的更改"
+推送更改到云端仓库： 使用 git push 命令将你的更改推送到 GitHub：
+git push origin main
